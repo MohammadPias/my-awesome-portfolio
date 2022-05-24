@@ -1,5 +1,5 @@
 import React from 'react';
-import { socialIcons } from '../Home/Menu';
+import { socialIcons } from '../Home/Menus/Menus';
 
 const Header = () => {
     const handleOpenLink = (link) => {

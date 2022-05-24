@@ -1,9 +1,13 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
+import Slider from '../../Slider/Slider';
 
 const Projects = () => {
     return (
-        <div>
-            <h1>All projects will be shown here</h1>
+        <div className='w-5/6 mx-auto'>
+            <Fade bottom big>
+                <Slider />
+            </Fade>
         </div>
     );
 };

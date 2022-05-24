@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
-import AnimatedCursor from 'react-animated-cursor';
-import { Link } from 'react-router-dom';
+import React from 'react';
 import banner from '../../images/banner.png';
 import image from '../../images/image.png'
-import Header from '../Header/Header';
-import { menus, socialIcons } from './Menu';
 import Fade from 'react-reveal/Fade';
+import { socialIcons } from './Menus/Menus';
 
 const Home = () => {
     const bg = {
@@ -22,27 +19,6 @@ const Home = () => {
     }
     return (
         <div className='w-screen h-screen'>
-            <AnimatedCursor
-                innerSize={14}
-                outerSize={40}
-                outerAlpha={0.3}
-                innerScale={0.7}
-                outerScale={2}
-                clickables={[
-                    'a',
-                    'input[type="text"]',
-                    'input[type="email"]',
-                    'input[type="number"]',
-                    'input[type="submit"]',
-                    'input[type="image"]',
-                    'label[for]',
-                    'select',
-                    'textarea',
-                    'button',
-                    '.link'
-                ]}
-            />
-            {/* <Header /> */}
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 <Fade right big>
                     <div className='lg:order-2 lg:p-10'>
