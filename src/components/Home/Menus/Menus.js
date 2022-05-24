@@ -4,8 +4,8 @@ export const menus = [
     { name: 'Home', path: '/', icon: <i className="fa-solid fa-house"></i> },
     { name: 'Projects', path: '/projects', icon: <i className="fa-solid fa-briefcase"></i> },
     { name: 'Skills', path: '/skills', icon: <img className='p-1' src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-skills-management-kiranshastry-lineal-kiranshastry-6.png" alt='' /> },
-    { name: 'About', path: '/about', icon: <i className="fa-solid fa-user"></i> },
     { name: 'Contact', path: '/contact', icon: <i className="fa-solid fa-envelope"></i> },
+    { name: 'About', path: '/about', icon: <i className="fa-solid fa-user"></i> },
 
 ]
 
