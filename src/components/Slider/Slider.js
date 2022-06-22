@@ -9,6 +9,7 @@ import ceramic1 from '../../images/projects/ceramic1.png'
 import babyCare1 from '../../images/projects/babycare-1.png'
 import t2p from '../../images/projects/t2v-1.png'
 import medicare from '../../images/projects/medicare-1.png'
+import craftShop from '../../images/projects/craftShop-1.png'
 
 // import required modules
 import { EffectCoverflow, Pagination, Autoplay } from "swiper";
@@ -19,6 +20,7 @@ const Slider = () => {
         { name: 'Babycare-Products', src: `${babyCare1}`, path: '/projects' },
         { name: 'Travel-to-Paradise', src: `${t2p}`, path: '/' },
         { name: 'Medicare-Magician', src: `${medicare}`, path: '/' },
+        { name: 'Craft-Shop', src: `${craftShop}`, path: '/' },
     ]
     return (
         <>

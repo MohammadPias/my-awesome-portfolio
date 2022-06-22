@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import IndexHome from './components/Home/IndexHome/IndexHome';
 import BabyCare from './components/Home/ProjectDetails/BabyCare';
 import Ceramics from './components/Home/ProjectDetails/Ceramics';
+import CraftShop from './components/Home/ProjectDetails/CraftShop';
 import MediCare from './components/Home/ProjectDetails/MediCare';
 import T2P from './components/Home/ProjectDetails/T2P';
 import Projects from './components/Home/Projects/Projects';
@@ -45,6 +46,7 @@ function App() {
           <Route path='projects/Ceramics-Amber/' element={<Ceramics />} />
           <Route path='projects/Travel-to-Paradise/' element={<T2P />} />
           <Route path='projects/Medicare-Magician/' element={<MediCare />} />
+          <Route path='projects/Craft-Shop/' element={<CraftShop />} />
           <Route path='skills' element={<Skills />} />
           <Route path='contact' element={<Contact />} />
         </Route>

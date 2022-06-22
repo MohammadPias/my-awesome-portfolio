@@ -3,6 +3,7 @@ import banner from '../../images/banner.png';
 import image from '../../images/image.png'
 import Fade from 'react-reveal/Fade';
 import { socialIcons } from './Menus/Menus';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const bg = {
@@ -29,10 +30,12 @@ const Home = () => {
                     <div className='text-center flex flex-col justify-center items-center space-y-5 p-8 lg:ml-28 lg:order-1'>
                         <h1 className='text-3xl lg:text-5xl text-gray-light font-bold'>Hello, I am <span className='text-orange-light'>Noor Mohammad Pias.</span></h1>
                         <h5 className='text-gray-400 text-lg'>I introduce myself as a React Developer. I have done Some full-stack project with React js, Redux, Node js, MongoDb, Express js, Firebase Authentication, etc.</h5>
-                        <button className='btn btn-primary  transition-all duration-500 hover:border-none relative group ring-2 ring-orange-light'>
-                            <span className='absolute bg-blue-dark w-0 h-full top-0 left-0 group-hover:w-full transition-all duration-500 rounded-full ease-in-out '></span>
-                            <span className='relative'>Download Resume</span>
-                        </button>
+                        <Link to='/about'>
+                            <button className='btn btn-primary  transition-all duration-500 hover:border-none relative group ring-2 ring-orange-light'>
+                                <span className='absolute bg-blue-dark w-0 h-full top-0 left-0 group-hover:w-full transition-all duration-500 rounded-full ease-in-out '></span>
+                                <span className='relative'>Learn More</span>
+                            </button>
+                        </Link>
                         <div className='flex justify-center items-center space-x-5 lg:invisible'>
                             {
                                 socialIcons.map((icon, index) =>
